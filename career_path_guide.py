@@ -8,7 +8,7 @@ genai.configure(api_key=st.secrets.get("GOOGLE_API_KEY", None) or "YOUR_API_KEY_
 st.set_page_config(page_title="AI Career Path Guide", page_icon="🎓", layout="centered")
 
 st.title("🎯 AI Career Path Guide")
-st.caption("Your personalized career mentor powered by Gemini AI")
+st.caption("Your personalized career mentor powered by Gemini AI. Developed by PULKIT DUBEY.")
 
 # --- Step 1: Basic Info ---
 name = st.text_input("👤 Enter your name:")
