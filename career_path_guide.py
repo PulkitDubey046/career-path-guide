@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # 🔹 Configure Gemini API
-genai.configure(api_key=st.secrets.get("GOOGLE_API_KEY", None) or "YOUR_API_KEY_HERE")
+genai.configure(api_key=st.secrets.get("GOOGLE_API_KEY", None) or "AIzaSyDbFaFNRv3OhUllBKtnXIYSUPT0k08cLk8")
 
 # 🔹 Streamlit App Setup
 st.set_page_config(page_title="AI Career Path Guide", page_icon="🎓", layout="centered")
